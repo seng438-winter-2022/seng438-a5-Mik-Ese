@@ -2,12 +2,14 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group \#: | 27         |
+| --------- | ---------- |
+| Michele   | Esercitato |
+| Dylan     | Mah        |
+| Faisal    | Hossain    |
+| Cheyenne  | Goh        |
+
+**Table of Contents**
 
 # Introduction
 
