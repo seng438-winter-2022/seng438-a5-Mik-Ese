@@ -22,7 +22,7 @@
 
 # Introduction
 
-#
+This lab was used to teach students about the analysis of integration test data, and the tools used for reliability assessment. We familiarized ourselves with C-SFRAT and reliability demonstration charts (RDC) to carry out reliability growth testing and reliability assessment respectively. We then explored and applied the concepts from the lectures (of SENG 438) to interpret the given failure data with the given tools.
 
 # Assessment Using Reliability Growth Testing
 
