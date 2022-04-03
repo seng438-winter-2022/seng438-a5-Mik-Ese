@@ -27,10 +27,10 @@ This lab was used to teach students about the analysis of integration test data,
 # Assessment Using Reliability Growth Testing
 
 # Assessment Using Reliability Demonstration Chart
-![](./main/plots/RDC.jpg)
+![](./plots/RDC.jpg)
 RDC with MTTF of 5
 
-![](./main/plots/RDC%20with%202x%20MTTF.jpg)
+![](./plots/RDC%20with%202x%20MTTF.jpg)
 RDC for 2 * MTTF
 
 ![](./plots/RDC%20with%200.5x%20MTTF.jpg)
