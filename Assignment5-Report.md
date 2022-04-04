@@ -24,7 +24,19 @@
 This lab was used to teach students about the analysis of integration test data, and the tools used for reliability assessment. We familiarized ourselves with C-SFRAT and reliability demonstration charts (RDC) to carry out reliability growth testing and reliability assessment respectively. We then explored and applied the concepts from the lectures (of SENG 438) to interpret the given failure data with the given tools.
 
 # Assessment Using Reliability Growth Testing
-??
+The chosen plot models are Geometric and S-Distribution. They were chosen among all the other models offered by the C-SFRAT program, by visually assessing their accuracy and by numerically comapring the model data that will be discussed in the [Comparison of Results](#Comparison-of-Results) section.
+
+![](.plots/C-SFRAT_Geometric_Plot.png)
+Figure 1: Geometric Model
+
+![](.plots/C-SFRAT_Geometric_Plot_Intensity.png)
+Figure 2: Geometric Model - Intensity
+
+![](.plots/C-SFRAT_S_Distribution_Plot.png)
+Figure 3: S-Distribution Model
+
+![](.plots/C-SFRAT_S_Distribution_Plot_Intensity.png)
+Figure 4: S-Distribution Model
 
 # Assessment Using Reliability Demonstration Chart
 The MTTF was chosen by first deciding the maximum amount of failures that the system should encounter. The value of 3 was reasonable because this would allow for some small faults in the system that would not massively impact the program. Also, it was a small enough number for the given data set since the failures at a given time would average to be over 3. Thus, the cumulative failure counter would become much larger over time. Below are the RDCs for the different MTTF values.
@@ -32,13 +44,13 @@ The MTTF was chosen by first deciding the maximum amount of failures that the sy
 <br>
 
 ![](./plots/RDC.jpg)
-Figure 3: RDC with MTTF of 5
+Figure 5: RDC with MTTF of 5
 
 ![](./plots/RDC%20with%202x%20MTTF.jpg)
-Figure 4: RDC for 2 * MTTF
+Figure 6: RDC for 2 * MTTF
 
 ![](./plots/RDC%20with%200.5x%20MTTF.jpg)
-Figure 5: RDC for 1/2 * MTTF
+Figure 7: RDC for 1/2 * MTTF
 
 #
 
