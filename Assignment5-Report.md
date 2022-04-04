@@ -48,6 +48,14 @@ Figure 5: RDC for 1/2 * MTTF
 
 # Discussion on Similarity and Differences of the Two Techniques
 
+# Advantages and Disadvantages of the Techniques
+### Reliability Growth Testing
+*
+
+### RDC Testing
+The advantages of RDC analysis are it’s very versatile plus a time and cost-efficient way of analyzing system reliability.. The disadvantage of RDC is it cannot be used to calculate the exact quantitative value for reliability (or availability) of the system. It can only indicate whether the SUT is acceptable or not.
+
+
 # How the team work/effort was divided and managed
 Our groups split into 2 teams that each tackled one part of the lab. Faisal and Michele handled part 1, while Dylan and Cheyenne handled part 2.
 #
