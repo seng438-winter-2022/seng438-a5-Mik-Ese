@@ -27,6 +27,8 @@ This lab was used to teach students about the analysis of integration test data,
 # Assessment Using Reliability Growth Testing
 
 # Assessment Using Reliability Demonstration Chart
+The MTTF was chosen by first deciding the maximum amount of failures that the system should encounter. The value of 3 was reasonable because this would allow for some small faults in the system that would not massively impact the program. Also, it was a small enough number for the given data set since the failures at a given time would average to be over 3. Thus, the cumulative failure counter would become much larger over time. Below are the RDCs for the different MTTF values.
+
 ![](./plots/RDC.jpg)
 RDC with MTTF of 5
 
@@ -43,9 +45,19 @@ RDC for 1/2 * MTTF
 # Discussion on Similarity and Differences of the Two Techniques
 
 # How the team work/effort was divided and managed
-
+Our groups split into 2 teams that each tackled one part of the lab. Faisal and Michele handled part 1, while Dylan and Cheyenne handled part 2.
 #
 
 # Difficulties encountered, challenges overcome, and lessons learned
+### Difficulties
+- Theory behind the tools
+
+### Challenges
+- Understanding how to use the different tools (RDC Excel chart, C-SFRAT)
+
+### Lessons
+- How to determine the reliability of a system using different tools
+- Different tools/techniques to find reliability
 
 # Comments/feedback on the lab itself
+Intersting lab for learning about reliability tools and techniques.
