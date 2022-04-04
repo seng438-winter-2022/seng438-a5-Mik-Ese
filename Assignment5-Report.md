@@ -47,14 +47,16 @@ Figure 5: RDC for 1/2 * MTTF
 
 # Discussion on Similarity and Differences of the Two Techniques
 ### Similarities
-??
+Both of the techniques can accept time-domain data (i.e., time-between-failures data) or interval-domain data (i.e. failure count data) as types of input failure data, depending on the tool being used. They both use target failure rate (or MTTF) in their testing.
 
 ### Differences
-??
+Reliability growth testing is based on inter failure times and/or failure count. In reliability growth testing, the accuracy of estimation of the failure intensity &#955; is improved for programs with an greater number of developed source lines.
+
+On the other hand, RDC is based on inter failure times only. RDC should be used when there are only a few failures, the times of the failures are known, and reliability trend of the system is desired.
 
 # Advantages and Disadvantages
 ### Reliability Growth Testing
-??
+The advantages of reliability growth testing include the ability to use several different models, assess their goodness of fit, and make predictions based on the plots. The disadvantage is that the accuracy of failure intensity estimation is reduced for smaller sample sizes.
 
 ### RDC Testing
 The advantages of RDC analysis are its versitility plus being a time and cost-efficient way of checking reliability. The disadvantage of RDC is it cannot quantify reliability, but can only show if the system is acceptable or not.
