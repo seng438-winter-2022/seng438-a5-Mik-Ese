@@ -74,7 +74,7 @@ Our groups split into 2 teams that each tackled one part of the lab. Faisal and 
 
 ### Lessons
 - How to determine the reliability of a system using different tools
-- Different tools/techniques to find reliability
+- Different tools/techniques to assess reliability and test reliability growth
 
 # Comments/feedback on the lab itself
 Intersting lab for learning about reliability tools and techniques.
