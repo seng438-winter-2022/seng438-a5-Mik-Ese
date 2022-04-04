@@ -29,6 +29,8 @@ This lab was used to teach students about the analysis of integration test data,
 # Assessment Using Reliability Demonstration Chart
 The MTTF was chosen by first deciding the maximum amount of failures that the system should encounter. The value of 3 was reasonable because this would allow for some small faults in the system that would not massively impact the program. Also, it was a small enough number for the given data set since the failures at a given time would average to be over 3. Thus, the cumulative failure counter would become much larger over time. Below are the RDCs for the different MTTF values.
 
+<br>
+
 ![](./plots/RDC.jpg)
 RDC with MTTF of 5
 
