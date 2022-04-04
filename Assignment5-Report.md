@@ -1,5 +1,4 @@
 **SENG 438- Software Testing, Reliability, and Quality**
-
 **Lab. Report \#5 – Software Reliability Assessment**
 
 | Group \#: | 27         |
@@ -12,7 +11,6 @@
 <br>
 
 **Table of Contents**
-
 1. [Introduction](#Introduction)
 2. [Assessment Using Reliability Growth Testing](#Assessment-Using-Reliability-Growth-Testing)
 3. [Assessment Using Reliability Demonstration Chart](#Assessment-Using-Reliability-Demonstration-Chart)
@@ -23,10 +21,10 @@
 8. [Comments/feedback on the lab itself](#Comments/feedback-on-the-lab-itself)
 
 # Introduction
-
 This lab was used to teach students about the analysis of integration test data, and the tools used for reliability assessment. We familiarized ourselves with C-SFRAT and reliability demonstration charts (RDC) to carry out reliability growth testing and reliability assessment respectively. We then explored and applied the concepts from the lectures (of SENG 438) to interpret the given failure data with the given tools.
 
 # Assessment Using Reliability Growth Testing
+??
 
 # Assessment Using Reliability Demonstration Chart
 The MTTF was chosen by first deciding the maximum amount of failures that the system should encounter. The value of 3 was reasonable because this would allow for some small faults in the system that would not massively impact the program. Also, it was a small enough number for the given data set since the failures at a given time would average to be over 3. Thus, the cumulative failure counter would become much larger over time. Below are the RDCs for the different MTTF values.
@@ -48,6 +46,10 @@ Figure 5: RDC for 1/2 * MTTF
 ??
 
 # Discussion on Similarity and Differences of the Two Techniques
+### Similarities
+??
+
+### Differences
 ??
 
 # Advantages and Disadvantages
@@ -55,10 +57,10 @@ Figure 5: RDC for 1/2 * MTTF
 ??
 
 ### RDC Testing
-The advantages of RDC analysis are it’s very versatile plus a time and cost-efficient way of analyzing system reliability. The disadvantage of RDC is it cannot be used to calculate the exact quantitative value for reliability (or availability) of the system as it can only indicate whether the SUT is acceptable or not.
+The advantages of RDC analysis are its versitility plus being a time and cost-efficient way of checking reliability. The disadvantage of RDC is it cannot quantify reliability, but can only show if the system is acceptable or not.
 
 # How the team work/effort was divided and managed
-Our groups split into 2 teams that each tackled one part of the lab. Faisal and Michele handled part 1, while Dylan and Cheyenne handled part 2.
+Our groups split into 2 teams that each tackled one part of the lab. Faisal and Michele handled part 1, while Dylan and Cheyenne handled part 2. The work from both parts were reviewed by every member to ensure consistency and accuracy of results.
 #
 
 # Difficulties encountered, challenges overcome, and lessons learned
