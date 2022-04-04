@@ -32,13 +32,13 @@ The MTTF was chosen by first deciding the maximum amount of failures that the sy
 <br>
 
 ![](./plots/RDC.jpg)
-RDC with MTTF of 5
+Figure 3: RDC with MTTF of 5
 
 ![](./plots/RDC%20with%202x%20MTTF.jpg)
-RDC for 2 * MTTF
+Figure 4: RDC for 2 * MTTF
 
 ![](./plots/RDC%20with%200.5x%20MTTF.jpg)
-RDC for 1/2 * MTTF
+Figure 5: RDC for 1/2 * MTTF
 
 #
 
