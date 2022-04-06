@@ -24,7 +24,9 @@
 This lab was used to teach students about the analysis of integration test data, and the tools used for reliability assessment. We familiarized ourselves with C-SFRAT and reliability demonstration charts (RDC) to carry out reliability growth testing and reliability assessment respectively. We then explored and applied the concepts from the lectures (of SENG 438) to interpret the given failure data with the given tools.
 
 # Assessment Using Reliability Growth Testing
-The chosen plot models are Geometric and S-Distribution. They were chosen among all the other models offered by the C-SFRAT program, by visually assessing their accuracy; comparing the models, selecting those who most closly resempbled the shape of the input data; and by numerically comapring the model data which will be discussed in the [Comparison of Results](#Comparison-of-Results) section.
+The chosen plot models are Geometric and S-Distribution, and they use all three E, F and C covariates. They were chosen among all the other models offered by the C-SFRAT program, by visually assessing their accuracy; comparing the models, selecting those who most closly resempbled the shape of the input data; and by numerically comapring the model data which will be discussed in the [Comparison of Results](#Comparison-of-Results) section. Based on the Running Arithmetic average test on Figure , the range of useful data for analysis will be from time interval 20 to time interval 31.
+
+Based on analyzing various inputs and models from Reliablity Growth Testing and the prediciting tools from C-SFRAT, as shown in Figure , the targeted failure rate will be approximately 2.5 failures per time interval. 
 
 ![](./plots/C-SFRAT_Geometric_Plot.png)
 Figure 1: Geometric Model
@@ -84,6 +86,7 @@ Our groups split into 2 teams that each tackled one part of the lab. Faisal and 
 
 ### Challenges
 - Understanding how to use the different tools (RDC Excel chart, C-SFRAT)
+- Choosing which tools that gave the most accurate measurements and models
 
 ### Lessons
 - How to determine the reliability of a system using different tools
