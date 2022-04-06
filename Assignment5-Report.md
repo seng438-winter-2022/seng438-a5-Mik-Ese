@@ -24,9 +24,9 @@
 This lab was used to teach students about the analysis of integration test data, and the tools used for reliability assessment. We familiarized ourselves with C-SFRAT and reliability demonstration charts (RDC) to carry out reliability growth testing and reliability assessment respectively. We then explored and applied the concepts from the lectures (of SENG 438) to interpret the given failure data with the given tools.
 
 # Assessment Using Reliability Growth Testing
-The chosen plot models are Geometric and S-Distribution, and they use all three E, F and C covariates. They were chosen among all the other models offered by the C-SFRAT program, by visually assessing their accuracy; comparing the models, selecting those who most closly resempbled the shape of the input data; and by numerically comapring the model data which will be discussed in the [Comparison of Results](#Comparison-of-Results) section. Based on the Running Arithmetic average test on Figure , the range of useful data for analysis will be from time interval 20 to time interval 31.
+The chosen plot models are Geometric and S-Distribution, and they use all three E, F and C covariates. They were chosen among all the other models offered by the C-SFRAT program, by visually assessing their accuracy; comparing the models, selecting those who most closly resempbled the shape of the input data; and by numerically comapring the model data which will be discussed in the [Comparison of Results](#Comparison-of-Results) section. Based on the Running Arithmetic average test on Figure 5, the range of useful data for analysis will be from time interval 20 to time interval 31.
 
-Based on analyzing various inputs and models from Reliablity Growth Testing and the prediciting tools from C-SFRAT, as shown in Figure , the targeted failure rate will be approximately 2.5 failures per time interval. 
+Based on analyzing various inputs and models from Reliablity Growth Testing and the prediciting tools from C-SFRAT, as shown in Figure 7, the targeted failure rate will be approximately 2.5 failures per time interval. 
 
 ![](./plots/C-SFRAT_Geometric_Plot.png)
 Figure 1: Geometric Model
@@ -38,7 +38,18 @@ Figure 2: Geometric Model - Intensity
 Figure 3: S-Distribution Model
 
 ![](./plots/C-SFRAT_S_Distribution_Plot_Intensity.png)
-Figure 4: S-Distribution Model
+Figure 4: S-Distribution Model - Intensity
+
+![](./plots/Arithmetic_Average.png)
+Figure 5: Arithmetic Average of failure counts over time interval
+
+![](./plots/time_between_failures_geometric.png)
+
+Figure 6: Time between failures - Geometric model
+
+![](./plots/Geometric-Model-Prediction.png)
+
+Figure 7: Geometric Model - Prediction
 
 
 # Assessment Using Reliability Demonstration Chart
@@ -47,18 +58,18 @@ The MTTF was chosen by first deciding the maximum amount of failures that the sy
 <br>
 
 ![](./plots/RDC.jpg)
-Figure 5: RDC with MTTF of 5
+Figure 8: RDC with MTTF of 5
 
 ![](./plots/RDC%20with%202x%20MTTF.jpg)
-Figure 6: RDC for 2 * MTTF
+Figure 9: RDC for 2 * MTTF
 
 ![](./plots/RDC%20with%200.5x%20MTTF.jpg)
-Figure 7: RDC for 1/2 * MTTF
+Figure 10: RDC for 1/2 * MTTF
 
 
 # Comparison of Results
 ![](./plots/Model_comparison.png)
-Figure 8: Geometric vs S-Distribution 
+Figure 11: Geometric vs S-Distribution 
 
 # Discussion on Similarity and Differences of the Two Techniques
 ### Similarities
