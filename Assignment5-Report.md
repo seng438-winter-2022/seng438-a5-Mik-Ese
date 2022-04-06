@@ -69,7 +69,12 @@ Figure 10: RDC for 1/2 * MTTF
 
 # Comparison of Results
 ![](./plots/Model_comparison.png)
-Figure 11: Geometric vs S-Distribution 
+Figure 11: Geometric vs S-Distribution
+
+Figure 11, compare the Geometric and S-Distribuition models, including fields such as: AIC (Akaike Information Criterion), BIC (Bayesian Information Criterion), SSE (Sum of Squares Error), and PSSE (Predictive Sum of Squares Error).\
+It then uses the critic method for model selection. It does so based on the Multiple Goodness of fit Measures from the aforementioned criterion.
+Finally, as seen by the tabular results of the figure, we know that the normalized results of the Geometric model result in a slightly higher score than that of the S-Distribution model.\
+Depending on what the data should be used for, one might want to prioritize a specific collection of criteria above another, but this critic method gives an overall idea of how to assess how well a model characterizes the failure data set.
 
 # Discussion on Similarity and Differences of the Two Techniques
 ### Similarities
