@@ -85,7 +85,7 @@ On the other hand, RDC is based on inter failure times only. RDC should be used 
 The advantages of reliability growth testing include the ability to use several different models, assess their goodness of fit, and make predictions based on the plots. The disadvantage is that the accuracy of failure intensity estimation is reduced for smaller sample sizes.
 
 ### RDC Testing
-The advantages of RDC analysis are its versitility plus being a time and cost-efficient way of checking reliability. The disadvantage of RDC is it cannot quantify reliability, but can only show if the system is acceptable or not.
+The advantages of RDC analysis are its versitility in the data it can display plus it being a time and cost-efficient way of checking reliability. The disadvantage of RDC is it cannot quantify reliability, but can only show if the system should be accepted, rejected or continue to be developed.
 
 # How the team work/effort was divided and managed
 Our groups split into 2 teams that each tackled one part of the lab. Faisal and Michele handled part 1, while Dylan and Cheyenne handled part 2. The work from both parts were reviewed by every member to ensure consistency and accuracy of results.
